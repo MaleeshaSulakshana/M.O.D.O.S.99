@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "944919050513",
+    "project_id": "modos99-b3f84",
+    "storage_bucket": "modos99-b3f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944919050513:android:ed4461b7340253c97634b0",
+        "android_client_info": {
+          "package_name": "com.example.modos99"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944919050513-mvifbffbci53ta1nffq4jmifjtrebsvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.modos99",
+            "certificate_hash": "1692a021319bf51222f105462a4352a12d805798"
+          }
+        },
+        {
+          "client_id": "944919050513-tgava08c27v7jeoilqt3r4efl9ark1kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8ylt-rt3vbjvwehoixznYizZylwuBnmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944919050513-tgava08c27v7jeoilqt3r4efl9ark1kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

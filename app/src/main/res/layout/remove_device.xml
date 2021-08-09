@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_height="250dp"
+    android:background="@color/colorYellow"
+    android:padding="1dp"
+    android:layout_gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/lblView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:text="REMOVE DEVICE IP ADDRESS"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtDeviceIpView"
+                    android:layout_width="274dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/btnRemoveDeviceIp"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_corner_round"
+                    android:textColor="@color/colorBlack"
+                    android:text="Remove Device" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="0dp"
+                android:paddingBottom="10dp"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/btnRemoveDeviceCancel"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btn_corner_round"
+                    android:textColor="@color/colorBlack"
+                    android:text="Cancel" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

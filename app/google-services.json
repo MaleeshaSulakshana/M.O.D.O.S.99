@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770859778991",
+    "project_id": "modos99-bb2ec",
+    "storage_bucket": "modos99-bb2ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770859778991:android:441ba5472bde1296e9255a",
+        "android_client_info": {
+          "package_name": "com.example.modos99"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770859778991-4cfubipmb8k464jpikacl7l9i2q6h9n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk9e1XzQg6rxKLhtkrR8tLejI4kZ3CZJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770859778991-4cfubipmb8k464jpikacl7l9i2q6h9n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
